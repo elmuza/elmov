@@ -129,9 +129,9 @@ function App() {
       
         <div className='text-center pricelist'>
           <div>Диагностика _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ бесплатно</div>
-          <div>Ремонт аккумуляторов _ _ _ _ _ _ _ _ _ _ _ _ _ _ от 2 000 руб. </div>
-          <div>Гидроизоляция _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ от 3 000 руб. </div>
-          <div>Техническое обслуживание _ _ _ _ _ _ _ _ _ _ _ от 3 000 руб. </div>
+          <div>Ремонт аккумуляторов _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ от 500 руб. </div>
+          <div>Гидроизоляция _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _от 1 000 руб. </div>
+          <div>Техническое обслуживание _ _ _ _ _ _ _ _ _ _ _ _ _ _ от 500 руб. </div>
         </div>
      
         <div className='text-center advert'>Для расчета стоимости ремонта обратитесь в наш сервис по адресу г. Москва ул. Дубнинская д. 79 стр. 2. </div>
@@ -147,7 +147,7 @@ function App() {
         <div className='text-center'>
           <div className='contact'>г. Москва ул. Дубнинская д. 79 стр. 2. </div>
           <div className='contact'>Контактный телефон:  +7(905)589-97-27 </div>
-          <div className='contact'>Электронный адрес:  elmov@gmail.com</div>
+          <div className='contact'>Электронный адрес:  electric.movement.ru@gmail.com</div>
         </div>
 
         <MyMap />
