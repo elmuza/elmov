@@ -16,6 +16,7 @@
   background-position: center;
   height: 98vh;
   position: absolute;
+  width: 100%;
 }
 
 h1 {
@@ -71,7 +72,7 @@ h1 {
   letter-spacing: 2px;
   position: relative;
   padding-bottom: 20px;
-  margin: 15px 1px 0 30px;
+  margin: 4.1vw 1px 0 30px;
   font-size: 1.8vw;
   display: inline-block;
   transition: color .2s;
@@ -109,6 +110,7 @@ h1 {
 .tel {
   color: #E5E5E5;
   font-size: 1.5vw;
+  margin-top: 4.1vw
 }
 
 .order {
@@ -119,12 +121,6 @@ h1 {
   padding: 0 20px;
   line-height: 3vw;
 }
-
-.arrow {
-  display: block;
-  margin-bottom: 2vh;
-}
-
 
 h2 {
   font-size: 3vw;
@@ -195,15 +191,6 @@ h3 {
   font-size: 1.2vw;
 }
 
-.line {
-  border-bottom: 1px solid #8B9395;
-  width: 80%;
-  margin-bottom: 4vh;
-  
-}
-
-
-
 .page3 {
   height: 100vh;
   position: relative;
@@ -229,10 +216,41 @@ h4{
   text-align: center;
   font-size: 3vw;
 }
-.other{
-  display: block;
+
+.final-price {
+  font-size: 2vw;
+  margin: 2vw 10vw;
+}
+.advert {
+  font-size: 2vw;
+  margin: 2vw 10vw;
+  font-weight: bold;
 }
 
+.pricelist {
+  font-size: 2vw;
+  margin: 2vw 10vw;
+}
+.contact {
+  font-size: 2vw;
+  font-weight: bold;
+  padding-bottom: 1vw;
+}
+.messangers {
+  width: 2vw;
+  height: 2vw;
+  margin-left: 2vw;
+  display: inline;
+}
+
+
+.footer {
+  font-size: 1vw;
+  font-weight: bolder;
+}
+.addres {
+  margin-left: 3vw;
+}
 @media (max-width: 576px) {
   .menu-main {
     padding-top: 0;
@@ -275,7 +293,7 @@ h4{
   }
 
   h3 {
-    font-size: 3vw;
+    font-size: 2vw;
     margin-top: 2%;
   }
 
