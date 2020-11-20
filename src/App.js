@@ -1,7 +1,8 @@
 import './App.css';
 import { Arrow } from './components/arrow/Arrow';
 import { MyMap } from './components/map/Map';
-import to from './img/to.png'
+import { Benefits } from './components/benefits/Benefit';
+import {Services}  from './components/services/Services'
 
 
 function App() {
@@ -56,14 +57,7 @@ function App() {
       <div className="container-fluid" id='advantages'>
         <h2 className='text-center'>Наши преимущества</h2>  
 
-        <ul className='benefits'>
-          <li id='expert'>Эксперты в ремонте электротранспорта</li>
-          <li id='price'>Лучшие цены в городе</li>
-          <li id='guaranty'>Предоставляем гарантию качественного обслуживания</li>
-          <li id='problem'>Устраним любую проблему и предлагаем сервисное обслуживание. Мы обслуживаем все основные бренды</li>
-          <li id='accumulator'>Производим ремонт и замену аккумуляторов любой сложности</li>
-          <li id='vip'>Скидки постоянным клиентам </li>
-        </ul>
+        <Benefits />
 
         <h3 className='text-center'>РЕМОНТИРУЕМ ВСЕ ВИДЫ И МОДЕЛИ ЭЛЕКТРОТРАНСПОРТА</h3>
 
@@ -71,54 +65,9 @@ function App() {
     
         <Arrow link="#service" />
       </div>
-
-      <div className="container-fluid" id='service'>
-        <h2 className='text-center'>Предоставляем следующие виды услуг</h2>
-        
-        <div className="d-flex justify-content-between flex-column ">
-          <div className='row justify-content-center flex-nowrap'>
-            <figure className='figure page3-figure'>
-                <img src="/img/ring.png" alt="Замена колес" className='img-fluid  mx-auto d-flex align-items-start' />
-              <figcaption className="figure-caption text-center text-wrap">Замена колес в электросамокатах, сигвеях, гироскутерах </figcaption>
-            </figure>
-          
-            <figure className='figure page3-figure'> 
-              <img src="/img/gidroizolation.png" alt="Гидроизоляция" className='figure-img img-fluid  mx-auto d-flex align-items-start' />
-              <figcaption className="figure-caption text-center text-wrap">Гидроизоляция электросамокатов, сигвеев</figcaption>
-            </figure>
-        
-            <figure className='figure page3-figure'>
-              <img src="/img/accum.png" alt="аккумуляторы"  className='figure-img img-fluid mx-auto d-block' />
-              <figcaption className="figure-caption text-center text-wrap">Изготовление и замена аккумуляторов</figcaption>
-            </figure>
-          </div>
-
-          <div className='row justify-content-center flex-nowrap'>
-            <figure className='figure page3-figure'>
-              <img src="/img/scooters.png" alt="аккумуляторы" className='img-fluid  mx-auto d-flex align-items-start' />
-              <figcaption className="figure-caption text-center text-wrap">Ремонт электросамокатов любой сложности</figcaption>
-            </figure>
-
-            <figure className='figure page3-figure'>
-              <img src="/img/search.png" alt="аккумуляторы"  className='img-fluid  mx-auto d-flex align-items-start' />
-              <figcaption className="figure-caption text-center text-wrap">Поиск и устранение неисправностей</figcaption>
-            </figure>
-            
-            <figure className='figure page3-figure'>
-              <img src={to} alt="аккумуляторы" className='img-fluid  mx-auto d-flex align-items-start' />
-              <figcaption className="figure-caption text-center text-wrap">Техническое обслуживание самокатов, сигвеев, моноколес</figcaption>
-            </figure>
-          </div>
-        </div>
-
-        <div>
-          <h4>И многие другие виды ремонта электротранспорта!</h4> 
-          <p className='question text-center'>Если  хотите узнать подробнее о наших услугах - пишите нам в Skype, WatsApp или Viber или звоните по телефону +7(905)589-97-27</p>
-        </div>
-
-        <Arrow link="#prices" />
-      </div>
-     
+      
+      <Services />
+    
       <div className="container-fluid" id='prices'>
        
         <h2 className='text-center'>Стоимость работ</h2>
@@ -128,7 +77,7 @@ function App() {
         <div className='text-center advert'>Мы делаем ремонт независимо от марки электротранспорта</div>
       
         <div className='text-center pricelist'>
-          <div>Диагностика _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ бесплатно</div>
+          <div>Диагностика _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _бесплатно</div>
           <div>Ремонт аккумуляторов _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ от 500 руб. </div>
           <div>Гидроизоляция _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ от 1 000 руб. </div>
           <div>Техническое обслуживание _ _ _ _ _ _ _ _ _ _ _ _ _ _ от 500 руб. </div>

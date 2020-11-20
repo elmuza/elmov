@@ -132,57 +132,6 @@ h2 {
   color: #0C1A02;
 }
 
-.benefits {
-  font-size: 2vw;
-  padding-left: 8em;
-  padding-right: 1em;
-}
-li {
-  margin-bottom: 1.5vw;
-}
-#expert{
-  background: url(img/tyre-expert.png) 0 50% no-repeat;
-  list-style-type: none;
-  padding-left: 3em;
-  background-size: 4%;     
-}
-
-#price{
-  background: url(img/ruble.png) 0 50% no-repeat;
-  list-style-type: none;
-  padding-left: 3em;
-  background-size: 4%;     
-}
-
-#guaranty{
-  background: url(img/guarantee.png) 0 50% no-repeat;
-  list-style-type: none;
-  padding-left: 3em;
-  background-size: 4%;     
-}
-
-#problem{
-  background: url(img/problem.png) 0 50% no-repeat;
-  list-style-type: none;
-  padding-left: 3em;
-  line-height: 3vw;
-  background-size: 4%;     
-}
-
-#accumulator {
-  background: url(img/accumulator.png) 0 50% no-repeat;
-  list-style-type: none;
-  padding-left: 3em;
-  background-size: 4%;     
-}
-
-#vip{
-  background: url(img/vip.png) 0 50% no-repeat;
-  list-style-type: none;
-  padding-left: 3em;
-  background-size: 4%;      
-}
-
 h3 {
   font-size: 2vw;
   font-weight: bold;
@@ -190,32 +139,8 @@ h3 {
 .question {
   font-size: 1.2vw;
 }
+я
 
-.page3 {
-  height: 100vh;
-  position: relative;
-}
-
-.page3-figure  {
-  width: 15vw;
-  padding: 0 15px 15px;
-  border-width: 2px;
-  border-style: solid;
-  box-shadow:0px 4px 6px rgba(0, 0, 0, 0.25);
-  border-color: #939393;
-  margin: 1.56vw;
-  }
-  
-.figure-caption {
-  font-size: 0.9vw;
-  color: #0C1A02;
-  word-wrap: break-word;
-}
-
-h4{
-  text-align: center;
-  font-size: 3vw;
-}
 
 .final-price {
   font-size: 2vw;
