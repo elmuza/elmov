@@ -3,7 +3,12 @@
   margin-bottom: 2vh;
   margin-top: 1vw;
   z-index: 1;
+  transition: 1s;
 }
+
+svg path:hover {
+  fill: rgb(22, 21, 21);
+ }
 
 .line {
   border-bottom: 1px solid #8B9395;
