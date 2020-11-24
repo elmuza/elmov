@@ -1,0 +1,27 @@
+.fixmenu {
+  padding-left: 5%;
+  box-shadow: 0px 3px 5px rgba(191, 188, 188, 0.301);
+  height: 4vw;
+}
+.fixmenu li {
+  font-size: 2vw;
+  padding-left: 5vw;
+  padding-top: 1.2vw;
+}
+.logo {
+  font-family: Rokkitt;
+  font-size: 4vw;
+  line-height: 60px;
+  color: #939393;
+  text-shadow: 1px 1px 0px rgb(202, 202, 202),
+  1px -1px 0px rgb(202, 202, 202),
+  -1px -1px 0px  rgb(202, 202, 202),
+  -1px 1px 0px rgb(202, 202, 202),
+  1px 1px 3px rgb(128, 122, 122);
+  padding-right: 8vw;
+  display: inline-block;
+}
+.logo:hover {
+  color:black;
+  transition:0.5s;
+}

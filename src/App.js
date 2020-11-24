@@ -3,13 +3,14 @@ import { Arrow } from './components/arrow/Arrow';
 import { MyMap } from './components/map/Map';
 import { Benefits } from './components/benefits/Benefit';
 import {Services}  from './components/services/Services'
+import {FixedMenu} from './components/fixedMenu/FixedMenu'
 
 
 function App() {
   return (
     <>
-      <div className="main-picture"></div>
-
+      <div className="main-picture" id='page1'></div>
+      
       <div className="container-fluid d-flex justify-content-between flex-column vh-100">
         <div className='row justify-content-between align-items-center'>
           <div className='col-sm-12 col-md-4 col-lg-2 text-sm-center'>
@@ -53,6 +54,8 @@ function App() {
           <Arrow hideLine link="#advantages" />
         </div> 
       </div>
+
+      <FixedMenu />
 
       <div className="container-fluid" id='advantages'>
         <h2 className='text-center'>Наши преимущества</h2>  
@@ -100,19 +103,20 @@ function App() {
         </div>
 
         <MyMap />
-
-        <footer className='card-footer'>
-          <div className='row footer justify-content-center'>
-            <div className='addres'>© Сервисный центр ElMov 2020</div>
-            <div className='addres'>тел. +7(905)589-97-27</div>
-            <div  className='d-flex'>
-              <img src='/img/skype.png' alt='skype' className='img-fluid messangers '/>
-              <img src='/img/whatsapp.png' alt='viber' className='img-fluid messangers '/>
-              <img src='/img/viber.png' alt='sviber' className='img-fluid messangers '/>
-            </div>     
-          </div>
-        </footer>
       </div>
+        
+      <footer className='card-footer'>
+        <div className='row footer justify-content-center'>
+          <div className='addres'>© Сервисный центр ElMov 2020</div>
+          <div className='addres'>тел. +7(905)589-97-27</div>
+          <div  className='d-flex'>
+            <img src='/img/skype.png' alt='skype' className='img-fluid messangers '/>
+            <img src='/img/whatsapp.png' alt='viber' className='img-fluid messangers '/>
+            <img src='/img/viber.png' alt='sviber' className='img-fluid messangers '/>
+          </div>     
+        </div>
+      </footer>
+     
     </>
   );
 }

@@ -127,7 +127,7 @@ h2 {
   font-weight: bold;
   margin-top: 0;
   padding-bottom: 25px;
-  padding-top: 2%;
+  padding-top: 5%;
   margin-bottom: 0;
   color: #0C1A02;
 }
@@ -156,10 +156,6 @@ h3 {
   font-size: 2vw;
   margin: 2vw 10vw;
 }
-
-.pricelist div {
-  padding-bottom: 1.5vw;
-}
 .contact {
   font-size: 2vw;
   font-weight: bold;
@@ -180,6 +176,7 @@ h3 {
 .addres {
   margin-left: 3vw;
 }
+
 @media (max-width: 576px) {
   .menu-main {
     padding-top: 0;
