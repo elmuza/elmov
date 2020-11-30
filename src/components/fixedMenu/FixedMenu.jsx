@@ -6,7 +6,7 @@ export const FixedMenu = () => {
   return (
     <div className='d-none d-sm-block  sticky-top'>
       <nav className={`navbar navbar-expand-sm navbar-light absolute sticky-top bg-white ${styles.fixmenu}`}>
-        <a className={`${styles.logo}`} href="#page1">ElMov</a>
+        <a className={`${styles.logo}`} href="#ElMov">ElMov</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

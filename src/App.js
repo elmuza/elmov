@@ -9,7 +9,7 @@ import {FixedMenu} from './components/fixedMenu/FixedMenu'
 function App() {
   return (
     <>
-      <div className="main-picture" id='page1'></div>
+      <div className="main-picture" id='ElMov'></div>
       
       <div className="container-fluid d-flex justify-content-between flex-column vh-100">
         <div className='row justify-content-between align-items-center'>
@@ -88,7 +88,7 @@ function App() {
      
         <div className='text-center advert'>Для расчета стоимости ремонта обратитесь в наш сервис по адресу г. Москва ул. Дубнинская д. 79 стр. 2. </div>
       
-        <div className='question text-center'>Отправте сообщение с описанием проблемы нам в Skype, WatsApp или Viber и мы обязательно  вам ответим или звоните по телефону +7(905)589-97-27 </div>
+        <div className='question text-center'>Отправьте сообщение с описанием проблемы нам в Skype, WatsApp или Viber и мы обязательно  вам ответим или звоните по телефону +7(905)589-97-27 </div>
         
         <Arrow link="#contacts" />
       </div>
@@ -108,6 +108,7 @@ function App() {
       <footer className='card-footer'>
         <div className='row footer justify-content-center'>
           <div className='addres'>© Сервисный центр ElMov 2020</div>
+          <div className='addres'>www.electric-movement.ru</div>
           <div className='addres'>тел. +7(905)589-97-27</div>
           <div  className='d-flex'>
             <img src='/img/skype.png' alt='skype' className='img-fluid messangers '/>
