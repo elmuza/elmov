@@ -86,7 +86,7 @@ function App() {
           <div>Техническое обслуживание _ _ _ _ _ _ _ _ _ _ _ _ _ _ от 500 руб. </div>
         </div>
      
-        <div className='text-center advert'>Для расчета стоимости ремонта обратитесь в наш сервис по адресу г. Москва ул. Дубнинская д. 2А стр.4 бокс 173. </div>
+        <div className='text-center advert'>Для расчета стоимости ремонта обратитесь в наш сервис по адресу г. Москва, Сигнальный проезд дом 16 с19. </div>
       
         <div className='question text-center'>Отправьте сообщение с описанием проблемы нам в Skype, WatsApp или Viber и мы обязательно  вам ответим или звоните по телефону +7(905)589-97-27 </div>
         
@@ -97,7 +97,7 @@ function App() {
         <h2 className='text-center'>Мы находимся по адресу:</h2>
        
         <div className='text-center'>
-          <div className='contact'>г. Москва ул. Дубнинская д. 2А стр.4 бокс 173. </div>
+          <div className='contact'>г. Москва, Сигнальный проезд дом 16 с19. </div>
           <div className='contact'>Контактный телефон:  +7(905)589-97-27 </div>
           <div className='contact'>Электронный адрес:  electric.movement.ru@gmail.com</div>
         </div>
