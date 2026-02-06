@@ -1,0 +1,7 @@
+apiVersion: v2
+name: elmov
+description: A Helm chart for deploying the lmo application on k3s
+type: application
+version: 0.1.0
+appVersion: "0.0.1"
+

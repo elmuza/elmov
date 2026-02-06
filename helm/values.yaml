@@ -1,0 +1,26 @@
+replicaCount: 1
+
+image:
+  repository: satilian/elmov
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  tls: true
+  className: traefik
+  httpsHosts:
+    - host: elmove.webmax.site
+      paths:
+        - path: /
+          pathType: Prefix
+
+  httpHosts:
+    - host: elmove.local
+      paths:
+        - path: /
+          pathType: Prefix
