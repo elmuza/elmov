@@ -8,6 +8,14 @@ export default defineConfig({
     cssLoader: {
       url: false,
     },
+    htmlPlugin: {
+      templateParameters: {
+        PUBLIC_URL: process.env.PUBLIC_URL || "",
+      },
+    },
+  },
+  output: {
+    publicPath: process.env.PUBLIC_URL || "/",
   },
   plugins: [pluginReact(), pluginSass()],
 });
