@@ -7,11 +7,11 @@
 }
 
 .body {
-  font-family: 'Rokkit', serif;
+  font-family: "Rokkit", serif;
 }
 
 .main-picture {
-  background: url(img/Seagway.jpg);
+  background: url(../../img/Seagway.jpg);
   background-size: cover;
   background-position: center;
   height: 98vh;
@@ -20,20 +20,20 @@
 }
 
 h1 {
-  color: #FDFDFD;
+  color: #fdfdfd;
   text-align: center;
   font-size: 4vw;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   margin: 0;
   padding-bottom: 20px;
 }
 
 .present {
-  color: #E5E5E5;
+  color: #e5e5e5;
   text-align: center;
   font-size: 2vw;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   margin: 0;
   line-height: 1.5;
@@ -45,17 +45,18 @@ h1 {
   font-size: 4vw;
   line-height: 60px;
   color: #939393;
-  text-shadow: 1px 1px 0px rgb(202, 202, 202),
-  1px -1px 0px rgb(202, 202, 202),
-  -1px -1px 0px  rgb(202, 202, 202),
-  -1px 1px 0px rgb(202, 202, 202),
-  1px 1px 3px rgb(128, 122, 122);
+  text-shadow:
+    1px 1px 0px rgb(202, 202, 202),
+    1px -1px 0px rgb(202, 202, 202),
+    -1px -1px 0px rgb(202, 202, 202),
+    -1px 1px 0px rgb(202, 202, 202),
+    1px 1px 3px rgb(128, 122, 122);
 }
 
 /* Menu */
 .menu-main {
   list-style: none;
-  text-align: center; 
+  text-align: center;
 }
 
 .menu-main li {
@@ -64,7 +65,7 @@ h1 {
 
 .menu-main li:after {
   display: inline-block;
-  vertical-align:top;
+  vertical-align: top;
 }
 
 .menu-main a {
@@ -75,14 +76,16 @@ h1 {
   margin: 4.1vw 1px 0 30px;
   font-size: 1.8vw;
   display: inline-block;
-  transition: color .2s;
+  transition: color 0.2s;
 }
 
-.menu-main a, .menu-main a:visited {
-  color: #E5E5E5;
+.menu-main a,
+.menu-main a:visited {
+  color: #e5e5e5;
 }
 
-.menu-main a.current, .menu-main a:hover{
+.menu-main a.current,
+.menu-main a:hover {
   color: #aaa19b;
 }
 
@@ -96,26 +99,28 @@ h1 {
   bottom: 10px;
   left: 50%;
   background: #aaa19b;
-  transition: .8s;
+  transition: 0.8s;
 }
 
-.menu-main a:hover:before, .menu-main .current:before {
+.menu-main a:hover:before,
+.menu-main .current:before {
   left: 0;
 }
 
-.menu-main a:hover:after, .menu-main .current:after {
+.menu-main a:hover:after,
+.menu-main .current:after {
   right: 0;
 }
 
 .tel {
-  color: #E5E5E5;
+  color: #e5e5e5;
   font-size: 1.5vw;
-  margin-top: 4.1vw
+  margin-top: 4.1vw;
 }
 
 .order {
-  color: #E5E5E5;
-  border: 2px solid #E5E5E5;
+  color: #e5e5e5;
+  border: 2px solid #e5e5e5;
   border-radius: 25px;
   font-size: 1.2vw;
   padding: 0 20px;
@@ -129,7 +134,7 @@ h2 {
   padding-bottom: 25px;
   padding-top: 5%;
   margin-bottom: 0;
-  color: #0C1A02;
+  color: #0c1a02;
 }
 
 h3 {
@@ -139,10 +144,7 @@ h3 {
 .question {
   font-size: 1.2vw;
 }
-я
-
-
-.final-price {
+я .final-price {
   font-size: 2vw;
   margin: 2vw 10vw;
 }
@@ -168,7 +170,6 @@ h3 {
   display: inline;
 }
 
-
 .footer {
   font-size: 1vw;
   font-weight: bolder;
@@ -181,8 +182,7 @@ h3 {
   .menu-main {
     padding-top: 0;
     margin: 0;
-    padding-left: 0px
-
+    padding-left: 0px;
   }
 
   .menu-main li {
@@ -195,7 +195,7 @@ h3 {
   }
 
   .menu-main a {
-    padding: 5px 0 5px; 
+    padding: 5px 0 5px;
     margin: 0 5px;
     font-size: 4vw;
   }
@@ -206,14 +206,14 @@ h3 {
     margin-top: 10px;
   }
 
-  .tel  {
+  .tel {
     font-size: 3vw;
   }
 
   h1 {
     font-size: 7vw;
   }
-  
+
   h2 {
     margin-top: 5vw;
   }
@@ -231,7 +231,7 @@ h3 {
     font-size: 5vw;
   }
 
-  .benefits li{
+  .benefits li {
     font-size: 3vw;
     margin-bottom: 4vw;
   }
@@ -243,7 +243,7 @@ h3 {
 }
 
 @media (max-width: 768px) {
-  div .tel  {
+  div .tel {
     font-size: 3vw;
     padding-top: 10px;
   }
@@ -261,7 +261,7 @@ h3 {
 }
 
 @media (max-width: 992px) {
-  .tel  {
+  .tel {
     font-size: 1.6vw;
     padding-top: 10px;
   }

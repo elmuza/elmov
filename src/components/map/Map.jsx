@@ -1,5 +1,4 @@
-import React from 'react'
-import { YMaps, Map, Placemark } from 'react-yandex-maps'
+import { Map, Placemark, YMaps } from '@iminside/react-yandex-maps'
 import styles from './myMap.module.scss'
 
 export const MyMap = () => {
